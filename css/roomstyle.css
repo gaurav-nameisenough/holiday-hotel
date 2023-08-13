@@ -1,0 +1,88 @@
+@import "style.css";
+
+.room-wrapper .spacing-word{
+   letter-spacing: 0.5rem;
+}
+.book-btn{
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.375rem 1.875rem;
+    background-color: var(--bg-white);
+    border: 0.0625rem solid var(--primary-color);
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-out 0s;
+}
+.card-first .card-body{
+    flex-wrap: wrap;
+}
+.card-first .card-body .card-item .card-item-title{
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+}
+.card-first .card-body .card-item .card-item-content{
+    font-size: 0.9rem;
+}
+.card-second p:nth-child(2){
+    letter-spacing: 0.1rem;
+}
+.card-first .card-more .card-more-title{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.card-first .card-more .card-more-title .less{
+    display: none;
+}
+.card-first .card-more .card-body{
+    background-color: var(--bg-color);
+}
+.card-first .card-more .card-body .card-body-icons .card-body-icon{
+    width: 15%;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+.card-first .card-more .card-body .card-body-icons .card-body-icon img{
+    width: 100%;
+}
+
+.book-btn:hover{
+    background: var(--secondary-color);
+    color: var(--text-white);
+}
+.less{
+    display: none;
+}
+
+/* Personal Detail form */
+.personal-wrapper{
+    display: none;
+}
+.personal-wrapper .personal-title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.personal-wrapper .personal-item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+.personal-wrapper .personal-item label{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.personal-wrapper .personal-item input{
+    padding: 1rem;
+    outline: none;
+}
+.personal-wrapper .personal-info-btn{
+    margin-left: 6rem;
+}
